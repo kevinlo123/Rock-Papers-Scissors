@@ -18,12 +18,14 @@ div{
   height: 450px;
 }
 
-h1,p{
+h1{
   color: limegreen;
   text-align: center;
 }
 
 p{
+  color: limegreen;
+  text-align: center;
   margin-top: 50px;
   font-size: 30px;
 }
