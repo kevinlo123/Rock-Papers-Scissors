@@ -1,0 +1,55 @@
+body{
+  background: black;
+  font-family: 'Slabo 27px', serif;
+  background: url("http://www.themesltd.com/headers2/rock_paper_scissors.png");
+}
+
+div{
+  height: 500px;
+  background-size:cover;
+}
+
+#center{
+  position: relative;
+  left: 20%;
+  width: 60%;
+  border:thick solid limegreen;
+  background-color: black;
+  height: 450px;
+}
+
+h1,p{
+  color: limegreen;
+  text-align: center;
+}
+
+p{
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+#rock , #paper , #scissors{
+  position:relative;
+  left: 29%;
+  top:10px;
+  height: 50px;
+  width: 80px;
+  margin-right: 20px;
+  background: black;
+  border:1px solid limegreen;
+  color: limegreen;
+  transition: .7s all;
+}
+
+#paper:hover, #rock:hover , #scissors:hover{
+  color: black;
+  box-shadow: inset 0 0 0 5em limegreen;
+}
+
+#lime{
+  color:limegreen;
+}
+
+.containerScore{
+  color: limegreen;
+}
