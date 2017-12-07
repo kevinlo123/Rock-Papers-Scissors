@@ -1,3 +1,5 @@
+/* Remember fic CSS use flexbox also make responsive */
+
 body{
   background: black;
   font-family: 'Slabo 27px', serif;
@@ -55,3 +57,5 @@ p{
 .containerScore{
   color: limegreen;
 }
+
+/* Remember fic CSS use flexbox also make responsive */
