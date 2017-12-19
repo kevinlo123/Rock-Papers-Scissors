@@ -46,7 +46,7 @@ const computerThrows = () => {
   return botsWeapon;
 }
 
-const checkWhoWon = (botsweapon , usersWeapon) => {
+const checkWhoWon = (botsweapon , usersWeapon) => { //switch statement instead of if/else
 	switch(true){
 		case botsweapon == usersWeapon:
 		document.getElementById("p").innerHTML = "There was a tie!";
