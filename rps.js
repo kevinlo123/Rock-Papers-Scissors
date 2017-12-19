@@ -84,7 +84,7 @@ const checkWhoWon = (botsweapon , usersWeapon) => { //switch statement instead o
 	}
 }
 
-//EVENT HANDLERS
+//EVENT HANDLERS CALLBACKS
 rockElement.addEventListener("click" , userChoseRock);
 paperElement.addEventListener("click" , userChosePaper);
 scissorsElement.addEventListener("click" , userChoseScissors);
